@@ -57,7 +57,7 @@ public class TV {
     public static void setNumTV(int nuevoNumTV){
         numTV = nuevoNumTV;
     }
-    public int getNumTV(){
+    public static int getNumTV(){
         return numTV;
     }
 
