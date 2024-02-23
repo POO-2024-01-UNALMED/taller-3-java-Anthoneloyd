@@ -18,30 +18,30 @@ public class Control{
     }
 
     public void turnOn(){
-        TV.turnOn();
+        tv.turnOn();
     }
     public void turnOff(){
-        TV.turnDown();
+        tv.turnDown();
     }
 
     public void canalUp(){
-        TV.canalUp();
+        tv.canalUp();
     }
     public void canalDown(){
-        TV.canalDown();
+        tv.canalDown();
     }
 
     public void volumenUp() {
-        TV.volumenUp();
+        tv.volumenUp();
     }
     public void volumenDown(){
-        TV.volumenDown();
+        tv.volumenDown();
     }
 
     public void setCanal(int canal){
-        TV.setCanal(canal);
+        tv.setCanal(canal);
     }
     public void setVolumen(int volumen){
-        TV.setVolumen(volumen);
+        tv.setVolumen(volumen);
     }
 }
