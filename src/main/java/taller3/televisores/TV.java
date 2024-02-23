@@ -61,16 +61,17 @@ public class TV {
         return numTV;
     }
 
+    public boolean getEstado(){
+        return estado
+    }
+
+
     public void turnOn(){
         estado = true;
     }
 
     public void turnOff(){
         estado = false;
-    }
-
-    public boolean getEstado(){
-        return estado
     }
 
     public void canalUp(){
@@ -94,4 +95,5 @@ public class TV {
             volumen--;
         }
     }
+
 }
