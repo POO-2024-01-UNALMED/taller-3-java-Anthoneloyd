@@ -69,5 +69,12 @@ public class TV {
     public boolean getEstado(){
         return estado
     }
-    public
+
+    public void canalUp(){
+        canal++;
+    }
+    public void canalDown(){
+        canal--;
+    }
+
 }
