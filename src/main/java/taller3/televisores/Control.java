@@ -21,7 +21,7 @@ public class Control{
         tv.turnOn();
     }
     public void turnOff(){
-        tv.turnDown();
+        tv.turnOff();
     }
 
     public void canalUp(){
