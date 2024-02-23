@@ -8,11 +8,11 @@ public class Control{
         televisor.setControl(this);
     }
 
-    public TV getTV(){
+    public TV getTv(){
         return tv;
     }
 
-    public void setTV(TV televisor){
+    public void setTv(TV televisor){
         tv = televisor;
         televisor.setControl(this);
     }
