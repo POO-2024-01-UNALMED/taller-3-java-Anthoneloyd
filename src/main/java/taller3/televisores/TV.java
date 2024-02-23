@@ -54,8 +54,8 @@ public class TV {
         return control;
     }
 
-    public static void setNumTV(int numTV){
-        this.numTV = numTV;
+    public static void setNumTV(int nuevoNumTV){
+        numTV = nuevoNumTV;
     }
     public int getNumTV(){
         return numTV;
